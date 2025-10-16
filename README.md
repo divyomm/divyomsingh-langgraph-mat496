@@ -25,3 +25,13 @@ In this lesson, I learned how to use Routers in LangGraph to direct data to diff
 Lesson 6: Agents
 
 In this module, I explored the concept of agents within the LangGraph framework. I learned that agents are components that can make decisions, manage state, and interact with tools or other agents to accomplish tasks. The module covered how to define agents, set up their logic, and integrate them into a larger workflow. By the end, I gained hands-on experience in building intelligent agents capable of performing complex, multi-step tasks autonomously.
+
+Lesson 7: Agent with Memory
+
+In this module, I learned how to enhance LangGraph agents with memory capabilities, enabling them to remember and utilize past interactions. I explored two types of memory:
+
+Short-term memory: Persisted during a session, allowing agents to maintain context within a conversation.
+
+Long-term memory: Stored across sessions, enabling agents to recall information from previous interactions.
+
+I also practiced integrating memory into agents using LangGraph's checkpointer, allowing for state retention across multiple turns. This enhancement enables the creation of more intelligent and context-aware agents.
