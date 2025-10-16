@@ -17,3 +17,7 @@ In this lesson, I learned how to use LangSmith Studio to build and test LangGrap
 Lesson 4: Chain
 
 In this lesson, I learned how to use Chains in LangGraph to connect multiple nodes into a sequence. Each node performs a specific task, and Chains manage the flow of data between them. I explored how to define inputs and outputs, handle errors, and ensure smooth execution across the sequence. This lesson helped me understand how to build more complex workflows by chaining together simpler tasks.
+
+Lesson 5: Router
+
+In this lesson, I learned how to use Routers in LangGraph to direct data to different paths based on conditions. Routers act like decision points in a workflow, allowing for dynamic branching. I explored how to set up conditions, manage multiple outputs, and ensure that data flows correctly through the chosen paths. This lesson helped me understand how to build more flexible and responsive workflows by incorporating conditional logic.
