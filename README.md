@@ -9,3 +9,7 @@ Lesson 2: Simple Graph
 In this lesson, I learned how to create a simple graph using LangGraph. The main idea is to connect different nodes (agents or tasks) and define how data flows between them. I got hands-on experience setting up inputs and outputs, running the graph, and seeing how everything interacts.
 
 It also touched on debugging and monitoring the graph, which helps make sure everything works as expected. Overall, this lesson gave me a solid foundation to build more complex agent workflows in the future.
+
+Lesson 3: LangSmith Studio
+
+In this lesson, I learned how to use LangSmith Studio to build and test LangGraph workflows. I explored Graph Mode to visualize nodes and data flow, Chat Mode to test conversational agents, and tools for debugging and refining prompts. It helped me understand how to design, monitor, and improve agent workflows efficiently.
