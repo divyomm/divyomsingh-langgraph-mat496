@@ -21,3 +21,7 @@ In this lesson, I learned how to use Chains in LangGraph to connect multiple nod
 Lesson 5: Router
 
 In this lesson, I learned how to use Routers in LangGraph to direct data to different paths based on conditions. Routers act like decision points in a workflow, allowing for dynamic branching. I explored how to set up conditions, manage multiple outputs, and ensure that data flows correctly through the chosen paths. This lesson helped me understand how to build more flexible and responsive workflows by incorporating conditional logic.
+
+Lesson 6: Agents
+
+In this module, I explored the concept of agents within the LangGraph framework. I learned that agents are components that can make decisions, manage state, and interact with tools or other agents to accomplish tasks. The module covered how to define agents, set up their logic, and integrate them into a larger workflow. By the end, I gained hands-on experience in building intelligent agents capable of performing complex, multi-step tasks autonomously.
