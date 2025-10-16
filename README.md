@@ -13,3 +13,7 @@ It also touched on debugging and monitoring the graph, which helps make sure eve
 Lesson 3: LangSmith Studio
 
 In this lesson, I learned how to use LangSmith Studio to build and test LangGraph workflows. I explored Graph Mode to visualize nodes and data flow, Chat Mode to test conversational agents, and tools for debugging and refining prompts. It helped me understand how to design, monitor, and improve agent workflows efficiently.
+
+Lesson 4: Chain
+
+In this lesson, I learned how to use Chains in LangGraph to connect multiple nodes into a sequence. Each node performs a specific task, and Chains manage the flow of data between them. I explored how to define inputs and outputs, handle errors, and ensure smooth execution across the sequence. This lesson helped me understand how to build more complex workflows by chaining together simpler tasks.
