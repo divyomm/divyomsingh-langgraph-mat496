@@ -25,3 +25,61 @@ In this lesson, I learned how to use Routers in LangGraph to direct data to diff
 Lesson 6: Agents
 
 In this module, I explored the concept of agents within the LangGraph framework. I learned that agents are components that can make decisions, manage state, and interact with tools or other agents to accomplish tasks. The module covered how to define agents, set up their logic, and integrate them into a larger workflow. By the end, I gained hands-on experience in building intelligent agents capable of performing complex, multi-step tasks autonomously.
+
+Lesson 7: Agent with Memory
+
+In this module, I learned how to enhance LangGraph agents with memory capabilities, enabling them to remember and utilize past interactions. I explored two types of memory:
+
+Short-term memory: Persisted during a session, allowing agents to maintain context within a conversation.
+
+Long-term memory: Stored across sessions, enabling agents to recall information from previous interactions.
+
+I also practiced integrating memory into agents using LangGraph's checkpointer, allowing for state retention across multiple turns. This enhancement enables the creation of more intelligent and context-aware agents.
+
+## Module 2 – State Management in LangGraph
+
+### Lesson: State Schema
+
+In this lesson, I learned how to define the shape of the graph state using TypedDict. I explored how state is passed between nodes and how schema validation helps ensure data consistency throughout the graph execution.
+
+### Lesson: State Reducers
+
+In this lesson, I explored how to use reducers to manage state updates. I learned that by default, state keys are overwritten, but reducers like `add_messages` allow appending new information to lists, which is crucial for chat history.
+
+### Lesson: Multiple Schemas
+
+In this lesson, I learned how to deal with different input and output schemas. This is useful when different parts of the graph need to work with slightly different data structures, allowing for more flexible graph designs.
+
+### Lesson: Trim and Filter Messages
+
+In this lesson, I implemented strategies to manage the context window. I learned how to simply filter messages (e.g. keep only recent ones) or trim them to ensure the LLM receives the most relevant context without exceeding token limits.
+
+### Lesson: Chatbot with Summarization
+
+In this lesson, I learned how to integrate a summarization step into the graph. When the conversation gets too long, the graph can automatically generate a summary of older messages and store it, keeping the 'active' memory small.
+
+### Lesson: Chatbot with External Memory
+
+In this lesson, I connected the graph to an external database (simulated) to perist message history. This taught me how to save state outside the graph so that conversations can resume even after the process restarts.
+
+## Module 3 – UX & Human-in-the-Loop
+
+### Lesson: Breakpoints
+
+In this lesson, I learned how to pause graph execution using `interrupt_before`. This allows for inspection of the state or simply stopping the process to wait for external triggers before proceeding.
+
+### Lesson: Dynamic Breakpoints
+
+In this lesson, I explored conditional breakpoints. Instead of always stopping, I learned to trigger interruptions only when certain criteria are met (suspicious output, low confidence, or specific tool usage).
+
+### Lesson: Edit State & Human Feedback
+
+In this lesson, I learned how a human can intervene during a breakpoint to edit the state. This enables "human-in-the-loop" workflows where a user can approve, reject, or modify an agent's proposed action before it executes.
+
+### Lesson: Time Travel
+
+In this lesson, I learned about LangGraph's checkpointing capabilities that allow "time travel". I can replay the graph from a previous state, which is incredibly useful for debugging or allowing users to retry specific steps.
+
+### Lesson: Streaming Interruption
+
+In this lesson, I learned how to handle interruptions even during streaming responses. This makes the user experience smoother, as users can stop an ongoing generation if they see it going off track.
