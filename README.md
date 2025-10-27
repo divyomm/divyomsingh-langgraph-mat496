@@ -83,3 +83,21 @@ In this lesson, I learned about LangGraph's checkpointing capabilities that allo
 ### Lesson: Streaming Interruption
 
 In this lesson, I learned how to handle interruptions even during streaming responses. This makes the user experience smoother, as users can stop an ongoing generation if they see it going off track.
+
+## Module 4 – Tools & Agents
+
+### Lesson: Parallelization
+
+In this lesson, I learned how to run multiple nodes in parallel. This is helpful for tasks that don't depend on each other, significantly speeding up the overall workflow by processing independent steps concurrently.
+
+### Lesson: Sub-graphs
+
+In this lesson, I learned to compose graphs within graphs. This "sub-graph" pattern allows me to encapsulate complex logic into a single node in the parent graph, making the overall architecture modular and easier to read.
+
+### Lesson: Map-Reduce
+
+In this lesson, I applied the map-reduce pattern to LangGraph. I learned how to "map" a task across a list of inputs (processing them in parallel) and then "reduce" the results into a single summary or output.
+
+### Lesson: Research Assistant
+
+In this lesson, I combined the previous concepts to build a research assistant. It uses parallel browsing steps to gather information from multiple sources and then synthesizes the answer, demonstrating the power of concurrent agent execution.
